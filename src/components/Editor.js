@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
 import {
-  Editor,
   EditorState,
   CompositeDecorator,
   getDefaultKeyBinding
 } from 'draft-js';
+import Editor from 'draft-js-plugins-editor';
 import KeyCommandController from './KeyCommandController';
 import OverlayWrapper from './OverlayWrapper';
 
